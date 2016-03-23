@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4.0" type="plugin" group="sermonspeaker" method="upgrade">
+	<name>plg_sermonspeaker_mejsplayer</name>
+	<author>Reimar Imhof, Thomas Hunziker</author>
+	<creationDate>2016-03-23</creationDate>
+	<copyright>© 2016</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html</license>
+	<authorEmail>tuxuser06@quantentunnel.de</authorEmail>
+	<authorUrl></authorUrl>
+	<version>0.01</version>
+	<description>PLG_SERMONSPEAKER_MEJSPLAYER_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="mejsplayer">mejsplayer.php</filename>
+		<folder>language</folder>
+	</files>
+	<media destination="plg_sermonspeaker_mejsplayer" folder="media">
+		<folder>css</folder>
+		<filename>mediaelement-and-player.min.js</filename>
+		<filename>flashmediaelement.swf</filename>
+		<filename>mep-feature-simpleplaylist.js</filename>
+	</media>
+	<updateservers>
+	    <!--	<server type="extension" priority="1" name="SermonSpeaker.net">http://www.sermonspeaker.net/update/plg_sermonspeaker_mejsplayer.xml</server>	-->
+	</updateservers>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field
+					name="fileprio"
+					type="list"
+					label="PLG_SERMONSPEAKER_COMMON_FIELD_FILEPRIO_LABEL"
+					description="PLG_SERMONSPEAKER_COMMON_FIELD_FILEPRIO_DESC"
+					default="0"
+					>
+					<option value="0">Audio</option>
+					<option value="1">Video</option>
+				</field>
+
+				<field
+					name="playlistbuttonorder"
+					type="list"
+					label="PLG_SERMONSPEAKER_MEJSPLAYER_FIELD_PLAYLISTBUTTONORDER_LABEL"
+					description="PLG_SERMONSPEAKER_MEJSPLAYER_FIELD_PLAYLISTBUTTONORDER_DESC"
+					default="0"
+					>
+					<option value="0">Play/Pause - Prev - Next</option>
+					<option value="1">Prev - Play/Pause - Next</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

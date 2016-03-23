@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="controls.fw-Page%201" viewBox="0 0 144 32" version="1.1" x="0" y="0" width="144" height="32" inkscape:version="0.91 r13725" sodipodi:docname="controls2.svg" background-color="#ffffff00">
+ <metadata id="metadata4193"/>
+ <ellipse id="path3203" cx="8" cy="8" rx="7" ry="7" stroke-opacity="0.8" fill="#cccccc" stroke="#ffffff" fill-opacity="0.3" stroke-width="1.75"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" id="use5173" transform="translate(32,0)" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(64,0)" id="use5175" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(96,0)" id="use5177" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(128,0)" id="use5179" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(32,16)" id="use5181" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(48,16)" id="use5183" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(80,16)" id="use5185" width="144" height="32"/>
+ <use x="0" y="0" inkscape:tiled-clone-of="#path3203" xlink:href="#path3203" transform="translate(112,16)" id="use5187" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#path3203" id="use5191" transform="translate(48,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5173" id="use5193" transform="translate(-16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5175" id="use5195" transform="translate(16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5177" id="use5197" transform="translate(16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5179" id="use5199" transform="translate(-128,16)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5181" id="use5201" transform="translate(-16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5183" id="use5203" transform="translate(16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5185" id="use5205" transform="translate(16,0)" width="144" height="32"/>
+ <use x="0" y="0" xlink:href="#use5187" id="use5207" transform="translate(16,0)" width="144" height="32"/>
+</svg>

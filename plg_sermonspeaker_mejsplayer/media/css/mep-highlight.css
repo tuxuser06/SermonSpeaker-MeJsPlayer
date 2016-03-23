@@ -1,0 +1,37 @@
+/* Simple hover/active effect (except for .no-svg) */
+
+/* Start: Default buttons */
+.mejs-controls .mejs-button button:hover {
+  background-image: url(controls.svg) , url(mep-hover.svg);
+}
+.mejs-controls .mejs-button button:active {
+  background-image: url(controls.svg) , url(mep-active.svg);
+}
+.no-svg .mejs-controls .mejs-button button {
+  background-image: url(controls.png);
+}
+/* End: Default buttons */
+
+/* Start: Previous */
+.mejs-controls .mejs-prevtrack button:hover {
+  background-image: url(controls-simpleplaylist.svg) , url(mep-hover.svg);
+}
+.mejs-controls .mejs-prevtrack button:active {
+  background-image: url(controls-simpleplaylist.svg) , url(mep-active.svg);
+}
+.no-svg .mejs-controls .mejs-prevtrack button {
+  background-image: url(controls-simpleplaylist.png);
+}
+/* End: Previous */
+
+/* Start: Next */
+.mejs-controls .mejs-nexttrack button:hover {
+  background-image: url(controls-simpleplaylist.svg) , url(mep-hover.svg);
+}
+.mejs-controls .mejs-nexttrack button:active {
+  background-image: url(controls-simpleplaylist.svg) , url(mep-active.svg);
+}
+.no-svg .mejs-controls .mejs-nexttrack button {
+  background-image: url(controls-simpleplaylist.png);
+}
+/* End: Next */
